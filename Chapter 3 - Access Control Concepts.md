@@ -77,7 +77,7 @@
    - [ ] L3.2.1 Compare various physical access controls.
 
 * Physical Security Controls -
-  * Physical access controls are items you can **physically touch**. They include physical mechanisms deployed ==*to prevent, monitor, or detect direct contact*== with systems or areas within a facility.
+  * Physical access controls are items you can **physically touch**. They include physical mechanisms deployed <mark>*to prevent, monitor, or detect direct contact*</mark> with systems or areas within a facility.
   * Examples of physical access controls include security guards, fences, motion detectors, locked doors/gates, sealed windows, lights, cable protection, laptop locks, badges, swipe cards, guard dogs, cameras, mantraps/turnstiles, and alarms.
   * Why have physical security controls?
     * Physical access controls include fences, barriers, turnstiles, locks and other features that prevent unauthorized individuals from entering a physical site, such as a workplace. This is to protect not only physical assets such as computers from being stolen, but also to protect the health and safety of the personnel inside.

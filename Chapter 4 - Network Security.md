@@ -178,20 +178,20 @@
      * An intrusion occurs when an attacker is able to **bypass or thwart security mechanisms** and gain access to an organization’s resources.
      * Intrusion detection is a specific form of monitoring that monitors recorded information and real-time events to detect abnormal activity indicating a potential incident or intrusion.
      * An intrusion detection system (IDS) **automates the inspection of logs and real-time system events** to detect intrusion attempts and system failures.
-     * An IDS is intended as part of a ==defense-in-depth security== plan. It will work with, and complement, other security mechanisms such as firewalls, but it does not replace them.
-     * IDSs can recognize attacks that come from external connections, such as an attack from the internet, and attacks that spread internally, such as a malicious worm. Once they detect a suspicious event, they respond by sending alerts or raising alarms. ==A primary goal of an IDS is to provide a means for a timely and accurate response to intrusions.==
+     * An IDS is intended as part of a <mark>defense-in-depth security</mark> plan. It will work with, and complement, other security mechanisms such as firewalls, but it does not replace them.
+     * IDSs can recognize attacks that come from external connections, such as an attack from the internet, and attacks that spread internally, such as a malicious worm. Once they detect a suspicious event, they respond by sending alerts or raising alarms. <mark>A primary goal of an IDS is to provide a means for a timely and accurate response to intrusions.</mark>
      * Types of IDSs -
        * Host-based IDS (HIDS) -
          * monitors activity on a single computer, including process calls and information recorded in system, application, security and host-based firewall logs.
          * can often examine events in more detail than a NIDS can, and it can pinpoint specific files compromised in an attack and can also track processes employed by the attacker.
-         * can ==detect anomalies== on the host system that NIDSs cannot detect but are expesive and hard to mange than NIDSs.
+         * can <mark>detect anomalies</mark> on the host system that NIDSs cannot detect but are expesive and hard to mange than NIDSs.
        * Network-based IDS (NIDS) -
          * monitors and evaluates network activity to detect attacks or event anomalies. It cannot monitor the content of encrypted traffic but can monitor other packet details.
          * can monitor a large network by using remote sensors to collect data at key network locations that send data to a central management console. These sensors can monitor traffic at routers, firewalls, network switches that support port mirroring, and other types of network taps.
          * is usually able to detect the initiation of an attack or ongoing attacks, but they can’t always provide information about the success of an attack. They won’t know if an attack affected specific systems, user accounts, files or applications.
      * Security Information and Event Management (SIEM) -
        * Security management involves the use of tools that collect information about the IT environment from many disparate sources to better examine the overall security of the organization and streamline security efforts. These tools are generally known as security information and event management  solutions.
-       * The general idea of a SIEM solution is to ==gather log data from various sources== across the enterprise to better ==understand potential security concerns== and apportion resources accordingly.
+       * The general idea of a SIEM solution is to <mark>gather log data from various sources</mark> across the enterprise to better <mark>understand potential security concerns</mark> and apportion resources accordingly.
    * Thret Prevention -
      * There are some basic steps you can take that help reduce the risk of many types of threats -
        * Keep systems and applications up to date. Patch management ensures that systems and applications are kept up to date with relevant patches.
@@ -208,11 +208,11 @@
      * **Firewalls** -
        * *firewalling* refers to the process of designing, using or operating different processes in ways that isolate high-risk activities from lower-risk ones.
        * Firewalls enforce policies by filtering network traffic based on a set of rules.
-       * Next-gen firewalls integrate a variety of threat management capabilities into a single framework, including ==proxy services, intrusion prevention services (IPS) and tight integration with the identity and access management (IAM)== environment to ensure only authorized users are permitted to pass traffic across the infrastructure.
+       * Next-gen firewalls integrate a variety of threat management capabilities into a single framework, including <mark>proxy services, intrusion prevention services (IPS) and tight integration with the identity and access management (IAM)</mark> environment to ensure only authorized users are permitted to pass traffic across the infrastructure.
        ![Firewalls](assets/traditional-and-nextgen-firewalls.svg)
        * While next-gen firewalls can manage traffic at Layers 2 (MAC addresses), 3 (IP ranges) and 7 (application programming interface (API) and application firewalls), the traditional implementation has been to control traffic at Layer 4.
      * **Intrusion Prevention Systems** -
-       * a special type of **active** IDS that automatically ==attempts to detect and block attacks== before they reach target systems.
+       * a special type of **active** IDS that automatically <mark>attempts to detect and block attacks</mark> before they reach target systems.
        * It achieves it by ensuring all traffic must pass through the IPS and the IPS can choose what traffic to forward and what traffic to block after analyzing it.
        * Since IPS systems are most effective at preventing network-based attacks, it is common to see the IPS function integrated into firewalls. Just like IDS, there are Network-based IPS (NIPS) and Host-based IPS (HIPS).
 ---
@@ -245,7 +245,7 @@
         * Gas-based fire suppression systems are more friendly to the electronics, but can be toxic to humans.
 
 * Redundancy -
-  * The concept of redundancy is ==to design systems with duplicate components== so that if a failure were to occur, there would be a **backup**.
+  * The concept of redundancy is <mark>to design systems with duplicate components</mark> so that if a failure were to occur, there would be a **backup**.
   ![Data Center Power Supply Redundancy](assets/redundant-data-center.svg)
   * If the organization requires full redundancy, devices should have two power supplies connected to diverse power sources. Those power sources would be backed up by batteries and generators. In a high-availability environment, even generators would be redundant and fed by different fuel types.
 
@@ -257,7 +257,7 @@
 * Cloud -
   * **Cloud computing** is usually associated with an internet-based set of computing resources, and typically sold as a service, provided by a cloud service provider (CSP).
   * It is a very scalable, elastic and easy-to-use “utility” for the provisioning and deployment of Information Technology (IT) services. 
-  *  > “a model for enabling ==ubiquitous, convenient, on-demand network access to a shared pool of configurable computing resources== (such as networks, servers, storage, applications, and services) that can be rapidly provisioned and released with minimal management effort or service provider interaction.” NIST SP 800-145
+  *  > “a model for enabling <mark>ubiquitous, convenient, on-demand network access to a shared pool of configurable computing resources</mark> (such as networks, servers, storage, applications, and services) that can be rapidly provisioned and released with minimal management effort or service provider interaction.” NIST SP 800-145
   * Characteristics -
     * Pay as you go.
     * Reduced cost of ownership.
@@ -270,35 +270,35 @@
         * Automatic updates and patch management.
     * Platform as a Service (PaaS) -
       * A cloud provides an environment for customers to use to build and operate their own software.
-      * PaaS is a way for ==customers to rent hardware, operating systems, storage and network capacity== over the internet from a cloud service provider.
+      * PaaS is a way for <mark>customers to rent hardware, operating systems, storage and network capacity</mark> over the internet from a cloud service provider.
     * Infrastructure as a Service (IaaS) -
       * A cloud provides network access to traditional computing resources such as processing power and storage.
-      * IaaS models ==provide basic computing resources to consumers including servers, storage, and in some cases, networking== resources.
+      * IaaS models <mark>provide basic computing resources to consumers including servers, storage, and in some cases, networking</mark> resources.
       * Consumers install operating systems and applications and perform all required maintenance on the operating systems and applications.
   * Deployment Models -
     * Public -
-      * It is ==open to the public== and is, therefore, a shared resource that many people will be able to use as part of a resource pool.
+      * It is <mark>open to the public</mark> and is, therefore, a shared resource that many people will be able to use as part of a resource pool.
       * A public cloud deployment model includes assets available for any consumers to rent or lease and is hosted by an external cloud service provider (CSP).
     * Private -
       * Private cloud is generally developed and deployed for a private organization that builds its own cloud using their own resources.
     * Hybrid -
       * Hybrid cloud computing is gaining popularity with organizations by
-        * providing them with the ==ability to retain control of their IT environments==,
+        * providing them with the <mark>ability to retain control of their IT environments</mark>,
         * conveniently allowing them to use public cloud service to fulfill non-mission-critical workloads, and
         * taking advantage of flexibility, scalability and cost savings
     * Community -
       * Community clouds can be either public or private. What makes them **unique** is that they are generally developed for a particular community.
-      * The idea behind the community cloud is that ==people of like minds or similar interests can get together, share IT capabilities and services,== and use them in a way that is beneficial for the particular interests that they share.
+      * The idea behind the community cloud is that <mark>people of like minds or similar interests can get together, share IT capabilities and services,</mark> and use them in a way that is beneficial for the particular interests that they share.
 
 * Managed Service Provider (MSP) -
-  * A company that ==manages information technology assets== for another company.
+  * A company that <mark>manages information technology assets</mark> for another company.
   * Small- and medium-sized businesses commonly outsource part or all of their information technology functions to an MSP to manage day-to-day operations or to provide expertise in areas the company does not have.
-  * One such example is a ==managed detection and response (MDR) service==, where a vendor monitors firewall and other security tools to provide expertise in triaging events.
+  * One such example is a <mark>managed detection and response (MDR) service</mark>, where a vendor monitors firewall and other security tools to provide expertise in triaging events.
 
 * Service Level Agreement (SLA) -
-  * The cloud computing service-level agreement (cloud SLA) is ==an agreement between a cloud service provider and a cloud service customer== based on a taxonomy of cloud computing– specific terms to set the quality of the cloud services delivered.
+  * The cloud computing service-level agreement (cloud SLA) is <mark>an agreement between a cloud service provider and a cloud service customer</mark> based on a taxonomy of cloud computing– specific terms to set the quality of the cloud services delivered.
   * It characterizes quality of the cloud services delivered in terms of a set of measurable properties specific to cloud computing (business and technical) and a given set of cloud computing roles (cloud service customer, cloud service provider, and related sub-roles)
-  * The ==purpose of an SLA is to document specific parameters, minimum service levels and remedies for any failure to meet the specified requirements==. It should also affirm data ownership and specify data return and destruction details. Other important SLA points to consider include the following -
+  * The <mark>purpose of an SLA is to document specific parameters, minimum service levels and remedies for any failure to meet the specified requirements</mark>. It should also affirm data ownership and specify data return and destruction details. Other important SLA points to consider include the following -
     * Cloud system infrastructure details and security standards
     * Customer right to audit legal and regulatory compliance by the CSP
     * Rights and costs associated with continuing and discontinuing service use
@@ -317,15 +317,15 @@
 * Network Design -
   * The objective of network design is to satisfy data communication requirements and result in efficient overall performance.
   * **Network Segmentation** involves controlling traffic among networked devices.
-  * **Demilitarized Zone (DMZ** is a network area that is designed to be accessed by outside visitors but is still isolated from the private network of the organization. The ==DMZ is often the host of public web, email, file and other resource servers==.
-  * **VLANs (Virtual Lans)** are created by switches to ==logically segment a network== without altering its physical topology.
-  * A **virtual private network (VPN)** is a ==communication tunnel that provides point-to-point transmission== of both authentication and data traffic over an untrusted network.
-  * **Defense in depth** uses multiple types of access controls in literal or theoretical ==layers to help an organization avoid a monolithic security stance==.
-  * **Network access control (NAC)** is a ==concept of controlling access to an environment through strict adherence to and implementation of security policy==.
+  * **Demilitarized Zone (DMZ** is a network area that is designed to be accessed by outside visitors but is still isolated from the private network of the organization. The <mark>DMZ is often the host of public web, email, file and other resource servers</mark>.
+  * **VLANs (Virtual Lans)** are created by switches to <mark>logically segment a network</mark> without altering its physical topology.
+  * A **virtual private network (VPN)** is a <mark>communication tunnel that provides point-to-point transmission</mark> of both authentication and data traffic over an untrusted network.
+  * **Defense in depth** uses multiple types of access controls in literal or theoretical <mark>layers to help an organization avoid a monolithic security stance</mark>.
+  * **Network access control (NAC)** is a <mark>concept of controlling access to an environment through strict adherence to and implementation of security policy</mark>.
 
 * Defense in depth -
   * Defense in depth uses a layered approach when designing the security posture of an organization.
-  * Defense in depth provides more of a ==starting point for considering all types of controls—administrative, technological, and physical—that empower insiders== and operators to work together to protect their organization and its systems.
+  * Defense in depth provides more of a <mark>starting point for considering all types of controls—administrative, technological, and physical—that empower insiders</mark> and operators to work together to protect their organization and its systems.
   ![Defense in depth](assets/defense-in-depth-servers.svg)
     * **Data** - Controls that protect the actual data with technologies such as encryption, data leak prevention, identity and access management and data controls.
     * **Application** - Controls that protect the application itself with technologies such as data leak prevention, application firewalls and database monitors.
@@ -336,19 +336,19 @@
     * **Policies, procedures and awareness** - Administrative controls that reduce insider threats (intentional and unintentional) and identify risks as soon as they appear.
 
 * Zero Trust -
-  * Zero trust networks are ==often microsegmented networks, with firewalls at nearly every connecting point==. Zero trust encapsulates information assets, the services that apply to them and their security properties.
+  * Zero trust networks are <mark>often microsegmented networks, with firewalls at nearly every connecting point</mark>. Zero trust encapsulates information assets, the services that apply to them and their security properties.
   * Zero trust is an evolving design approach which
     * recognizes that even the most robust access control systems have their weaknesses.
-    * It ==adds defenses at the user, asset and data level==, rather than relying on perimeter defense.
+    * It <mark>adds defenses at the user, asset and data level</mark>, rather than relying on perimeter defense.
     * In the extreme, it insists that every process or action a user attempts to take must be authenticated and authorized; the window of trust becomes vanishingly small.
     ![Zero Trust](assets/zero-trust.svg)
     * While microsegmentation adds internal perimeters, zero trust places the focus on the assets, or data, rather than the perimeter. Zero trust builds more effective gates to protect the assets directly rather than building additional or higher walls.
 
 * Network Access Control (NAC) -
   * At one time, network access was limited to internal devices. Gradually, that was extended to remote connections, although initially those were the exceptions rather than the norm. This started to change with the concepts of bring your own device (BYOD) and Internet of Things (IoT).
-  * The organization’s access control policies and associated security policies should be enforced via the NAC device(s). The ==NAC device will provide the network visibility needed for access security and may later be used for incident response==.
+  * The organization’s access control policies and associated security policies should be enforced via the NAC device(s). The <mark>NAC device will provide the network visibility needed for access security and may later be used for incident response</mark>.
   *Aside from identifying connections, it should also be able to provide isolation for noncompliant devices within a quarantined network and provide a mechanism to “fix” the noncompliant elements, such as turning on endpoint protection.
-  * In short, ==the goal is to ensure that all devices wishing to join the network do so only when they comply with the requirements laid out in the organization policies==.
+  * In short, <mark>the goal is to ensure that all devices wishing to join the network do so only when they comply with the requirements laid out in the organization policies</mark>.
 
 * Network Segmentation (Demilitarized Zone (DMZ)) -
   * An effective way to achieve defense in depth for distributed or multi-tiered applications. The use of a **demilitarized zone** (DMZ), for example, is a common practice in security architecture.
@@ -356,19 +356,19 @@
 
 * Segmentation for Embedded Systems and IoT -
   * Embedded systems and network-enabled devices that communicate with the internet are considered IoT devices and need special attention to ensure that communication is not used in a malicious manner. Because an embedded system is often in control of a mechanism in the physical world, a security breach could cause harm to people and property.
-  * ==Since many of these devices have multiple access routes, such as ethernet, wireless, Bluetooth, etc., special care should be taken to isolate them from other devices on the network==.
-  * You can ==impose logical network segmentation with switches using VLANs==, or through other traffic-control means, including MAC addresses, IP addresses, physical ports, protocols, or application filtering, routing, and access control management. Network segmentation can be used to isolate IoT environments.
+  * <mark>Since many of these devices have multiple access routes, such as ethernet, wireless, Bluetooth, etc., special care should be taken to isolate them from other devices on the network</mark>.
+  * You can <mark>impose logical network segmentation with switches using VLANs</mark>, or through other traffic-control means, including MAC addresses, IP addresses, physical ports, protocols, or application filtering, routing, and access control management. Network segmentation can be used to isolate IoT environments.
 
 * Microsegmentation -
-  * Modern cyberattacks take advantage of traditional security models to move easily between systems within a data center. ==Microsegmentation aids in protecting against these threats==. A fundamental design requirement of microsegmentation is to understand the protection requirements for traffic within a data center and traffic to and from the internet traffic flows.
+  * Modern cyberattacks take advantage of traditional security models to move easily between systems within a data center. <mark>Microsegmentation aids in protecting against these threats</mark>. A fundamental design requirement of microsegmentation is to understand the protection requirements for traffic within a data center and traffic to and from the internet traffic flows.
 
 * Virtual LAN (VLAN) -
-  * allows network administrators to ==use switches to create software-based LAN segments==, which can segregate or consolidate traffic across multiple switch ports.
+  * allows network administrators to <mark>use switches to create software-based LAN segments</mark>, which can segregate or consolidate traffic across multiple switch ports.
   * Administration of the environment is simplified, as the VLANs can be reconfigured when individuals change their physical location or need access to different services. VLANs can be configured based on switch port, IP subnet, MAC address and protocols.
 
 * Virtual Private Network (VPN) -
   * A point-to-point connection between two hosts that allows them to communicate.
-  * Secure communications can, of course, be provided by the VPN, but only ==if the security protocols have been selected and correctly configured== to provide a trusted path over an untrusted network, such as the internet.
+  * Secure communications can, of course, be provided by the VPN, but only <mark>if the security protocols have been selected and correctly configured</mark> to provide a trusted path over an untrusted network, such as the internet.
   * Remote users employ VPNs to access their organization’s network, and depending on the VPN’s implementation, they may have most of the same resources available to them as if they were physically at the office.
 
 ---

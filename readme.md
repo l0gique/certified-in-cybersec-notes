@@ -1,7 +1,7 @@
 ### Certified in Cybersecurity
 * [Free Entry-level Cybersecurity Training + Certification Exam](https://www.isc2.org/landing/1mcc)
 * [ISC CPE Opportunities](https://www.isc2.org/members/cpe-opportunities)
-* For any help, please feel free to drop an e-mail [here](mdiliyasmaner@gmail.com) with ==**"ISC CC Certification Help"**== as subject.
+* For any help, please feel free to drop an e-mail [here](mdiliyasmaner@gmail.com) with <mark>**"ISC CC Certification Help"**</mark> as subject.
 
 
 ### Exam Blueprint

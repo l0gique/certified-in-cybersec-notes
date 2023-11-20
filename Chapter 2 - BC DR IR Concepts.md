@@ -1,6 +1,6 @@
 ## Chapter 2: Incident Response, Business Continuity and Disaster Recovery Concepts
 
-* Focuses on ==availability== part of the CIA triad.
+* Focuses on <mark>availability</mark> part of the CIA triad.
 
 ### Module 1: Understand incident response
 #### Domain D2.3.1, D2.3.2, D2.3.3
@@ -9,31 +9,31 @@
 
 * Incident Terminology -
   * Breach -
-    * The ==loss of control, compromise, unauthorized disclosure, unauthorized acquisition==, or any similar occurrence where: a person other than an authorized user accesses or potentially accesses ==personally identifiable information==; or an authorized user accesses personally identifiable information for other than an authorized purpose.
+    * The <mark>loss of control, compromise, unauthorized disclosure, unauthorized acquisition</mark>, or any similar occurrence where: a person other than an authorized user accesses or potentially accesses <mark>personally identifiable information</mark>; or an authorized user accesses personally identifiable information for other than an authorized purpose.
   * Event -
     * Any observable occurrence in a network or system
   * Exploit -
-     * These attacks ==exploit system vulnerabilities==.
+     * These attacks <mark>exploit system vulnerabilities</mark>.
    * Incident -
-     * An ==event== that actually or potentially ==jeopardizes the confidentiality, integrity or availability of an information system== or the information the system processes, stores or transmits.
+     * An <mark>event</mark> that actually or potentially <mark>jeopardizes the confidentiality, integrity or availability of an information system</mark> or the information the system processes, stores or transmits.
    * Intrusion -
-     * A security event, or combination of events, that constitutes a deliberate security incident in which an ==intruder gains, or attempts to gain, access to a system or system resource without authorization==.
+     * A security event, or combination of events, that constitutes a deliberate security incident in which an <mark>intruder gains, or attempts to gain, access to a system or system resource without authorization</mark>.
    * Threat -
-     * Any circumstance or ==event with the potential to adversely impact organizational operations== (including mission, functions, image or reputation), organizational assets, individuals, other organizations or the nation through an information system ==via unauthorized access, destruction, disclosure, modification of information and/or denial of service==.
+     * Any circumstance or <mark>event with the potential to adversely impact organizational operations</mark> (including mission, functions, image or reputation), organizational assets, individuals, other organizations or the nation through an information system <mark>via unauthorized access, destruction, disclosure, modification of information and/or denial of service</mark>.
    * Vulnerability -
-     * ==Weakness== in an information system, system security procedures, internal controls or implementation that ==could be exploited by a threat source==.
+     * <mark>Weakness</mark> in an information system, system security procedures, internal controls or implementation that <mark>could be exploited by a threat source</mark>.
    * Zero Day -
-     * A ==previously unknown system vulnerability== with the potential of exploitation without risk of detection or prevention because it does not, in general, fit recognized patterns, signatures or methods.
+     * A <mark>previously unknown system vulnerability</mark> with the potential of exploitation without risk of detection or prevention because it does not, in general, fit recognized patterns, signatures or methods.
 
 * The Goal of Incident Response -
-  * The ==priority of any incident response== is to ==protect life, health and safety==. The primary goal of incident management is **to be prepared**.
+  * The <mark>priority of any incident response</mark> is to <mark>protect life, health and safety</mark>. The primary goal of incident management is **to be prepared**.
   * Preparation requires having a policy and a response plan that will lead the organization through the crisis (crisis management).
-  * The ==event having  potential to disrupt the business’s mission==, then it is called an **incident**. Every organization must have an  incident response (IR) plan that will help preserve business viability and survival.
-  * The incident response process is ==aimed at reducing the impact of an incident== so the organization can resume the interrupted operations as soon as possible.
+  * The <mark>event having  potential to disrupt the business’s mission</mark>, then it is called an **incident**. Every organization must have an  incident response (IR) plan that will help preserve business viability and survival.
+  * The incident response process is <mark>aimed at reducing the impact of an incident</mark> so the organization can resume the interrupted operations as soon as possible.
 
 * Components of the Incident Response Plan -
-  * The organization’s vision, strategy and mission should shape the incident response process. ==Procedures to implement the IR plan should define the technical processes, techniques, checklists and other tools== that teams will use when responding to an incident.
-  * The following components are commonly found in an ==incident response plan== -
+  * The organization’s vision, strategy and mission should shape the incident response process. <mark>Procedures to implement the IR plan should define the technical processes, techniques, checklists and other tools</mark> that teams will use when responding to an incident.
+  * The following components are commonly found in an <mark>incident response plan</mark> -
     * **Preparation** -
       * Develop a policy approved by management.
       * Identify critical data and systems, single points of failure.
